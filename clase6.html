@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seccionamiento con html5</title>
+    <!-- iconos de Font Awesome 4 Icons  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body>*:not(h1):not(p) {
+            border: 5px solid goldenrod;
+        }
+
+        section {
+            background-color: darksalmon;
+            text-align: center;
+        }
+
+        .frontend {
+            background-color: antiquewhite;
+        }
+
+        .backend {
+            background-color: bisque;
+        }
+
+        .fullstack {
+            background-color: blanchedalmond;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Etiquetas utilez para el seccionamiento de una pagina web -->
+    <h1>Primer maquetado de un sitio web</h1>
+    <p>Permite darle estructura a tu sitio web, ayudando a los navegadores identificar el contenido de la pagina</p>
+    <!-- Define la cabecera de una pagina web -->
+    <header>
+        <!-- Generalmente contiene un logo, un slogan y un menu de navegacion -->
+        <!-- Logo -->
+        <img src="img/logo.png" width="200" height="100" alt="logo">
+        <!-- Slogan -->
+        <h1>Curso de desarrollo web enfocado a backend</h1>
+        <!-- menu de navegacion -->
+        <nav>
+            <a href="Clase 1.html">Primera clase de html</a>
+            <a href="Clase 2.html">Segunda clase de html</a>
+            <a href="Clase 3.html">Tercera clase de html</a>
+            <a href="Clase 4.html">Cuarta clase de html</a>
+            <a href="Clase 5.html">Quinta clase de html</a>
+        </nav>
+    </header>
+    <!-- Contenido para articulos, ayuda a que el navegador pueda relacionar el tipo de contenido -->
+    <article>
+        <h1>Los lenguajes de programación para el desarrollo web</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, excepturi odio minus, corrupti
+            dignissimos consequuntur quibusdam doloribus nobis fugit quod laboriosam, iste nihil magni ratione pariatur
+            soluta optio incidunt nisi?</p>
+    </article>
+    <!-- agrupar contenidos, permitiendo manejarlos de manera mas sencilla -->
+    <div>
+        <h1>Sirvo como contenedor de contenidos</h1>
+    </div>
+    <!-- Define una seccion especifica del sitio web, los temas de cada seccion deben ser temas que se r4elacionen entre si -->
+    <section>
+        <h1>desarrollo web</h1>
+        <div class="frontend">
+            <h3>Frontend</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde cumque culpa atque, sed quam sit laborum
+                ipsam possimus aut mollitia nam numquam maiores ipsum sapiente aspernatur? Fugiat possimus inventore ab.
+            </p>
+        </div>
+        <div class="backend">
+            <h3>Backend</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id similique laudantium, laborum, illum rem hic
+                quis nam incidunt accusamus, a fugit magni odio rerum. Necessitatibus, tenetur architecto. Repellendus,
+                doloremque tempora.</p>
+        </div>
+        <div class="fullstack">
+            <h3>Fullstack</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quam in enim sunt, commodi harum laborum
+                incidunt! Dolor, veritatis iusto possimus, quis magnam at omnis facere corporis labore quo suscipit!</p>
+        </div>
+    </section>
+    <!-- Para contenido ligeramente relacionado, generalmente se encuentra a los laterales -->
+    <aside>
+        <h1>Otros cursos</h1>
+        <ul>
+            <li>Marketing digital</li>
+            <li>Ciberseguridad</li>
+            <li>Analisis de datos</li>
+        </ul>
+    </aside>
+    <!-- Pie de pagina, suele llevar informacion de contacto de la pagina -->
+    <footer>
+        <a href="https://es-la.facebook.com/"><i class="fa fa-facebook-official">Facebook</i></a>
+        <a href="https://www.youtube.com/"><i class="fa fa-youtube-square">Youtube</i></a>
+        <a href="https://www.instagram.com/"><i class="fa fa-instagram">Instagram</i></a>
+        <p>© Todos los derechos al curso de backend - 2023</p>
+    </footer>
+</body>
+
+</html>
